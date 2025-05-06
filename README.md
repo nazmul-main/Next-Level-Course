@@ -1,0 +1,4 @@
+  for runthe code: 
+  ----------------
+   npx ts-node "d:\Next Level Web Development\Misstion 
+- 1 ___ Be a Typescript TecnoCart\Module-3\3.4.ts"
