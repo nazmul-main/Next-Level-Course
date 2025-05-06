@@ -16,8 +16,7 @@
     const result2 = add(10, 2);    
     console.log(result1, result2);
 
-    // in gurad
-
+    // in guard
     type NormalUserType = {
         name: string;
     }
@@ -28,8 +27,23 @@
     }
 
     const getUser = (user: NormalUserType | AdminUserType) => {
-        user.
+        if ("role" in user) {
+            console.log(`my name is ${user.name} and my role is ${user.role}`);
+        }
+        else {
+            console.log(`my name is ${user.name}`);
+        }
     }
 
-    
+    const normaluser: NormalUserType = {
+        name: "John Normal",
+    }
+
+    const adminuser: AdminUserType = {
+        name: "John",
+        role: "admin",
+    }
+
+    getUser(normaluser);
+    getUser(adminuser);
 }

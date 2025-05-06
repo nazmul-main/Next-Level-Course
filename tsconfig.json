@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-      "module": "NodeNext",
-      "moduleResolution": "NodeNext", // This line can be omitted if you want to rely on the default behavior
-      "target": "ES2020",
-      "outDir": "./dist",
-      "rootDir": "./src",
-      "strict": true,
-      "esModuleInterop": true
-    },
-    "include": ["Next Level Web Development/Misstion - 1 ___ Be a Typescript TecnoCart/tsconfig.json"],
-    
-  }
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
