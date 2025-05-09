@@ -74,7 +74,30 @@ const newInfoPerson1 : Person ={
     ...person,
     salary: 100000,
 }
-console.log(newInfoPerson1);
+// console.log(newInfoPerson1);
+
+/* -----------------------
+Rest Oparator
+------------------------- */
+
+const [a,b, c, ...bakiElement] = [1,2,3,4,5,6,7,8,9,10];
+// console.log('a' , a);
+// console.log('b', b);
+// console.log('c' , c);
+// console.log('Baki' , bakiElement);
 
 
+/* ----------------------------
+ternery-optional-chaning
+------------------------------ */
+const isAdmin = true;
+const message : string | number = isAdmin ? 'Welcome Admin' : 247 ;
+// console.log(message);
+
+const data = {
+    name: "John",
+    age: 29,
+    address: 'Bogura BD',
+}
+console.log(data?.age); // '?' optional chaining . 
 
