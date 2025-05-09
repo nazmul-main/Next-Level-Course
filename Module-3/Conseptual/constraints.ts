@@ -3,4 +3,6 @@
         return str.length;
     }
     console.log(getLength<string>('hello world!'));
+    console.log(getLength<string>('hello world!'));
+
 }
