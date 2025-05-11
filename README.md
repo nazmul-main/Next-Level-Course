@@ -1,1 +1,1 @@
-npx ts-node "d:\Next Level Web Development\Misstion - 1 ___ Be a Typescript TecnoCart\Module-3\Conseptual-2\keyOF.ts"
+npx ts-node "d:\Next Level Web Development\Misstion - 1 ___ Be a Typescript TecnoCart\Module-3\Conseptual-2\typeOf.ts"
